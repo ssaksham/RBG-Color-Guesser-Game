@@ -1,0 +1,66 @@
+body{
+    background:rgb(35, 35, 35);
+    margin:0px;
+    text-transform: uppercase;
+}
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.6s;
+}
+
+.container{
+    max-width: 600px;
+}
+.message{
+    color: black;
+}
+.head{
+    margin: 0px;
+    padding:0px;
+    width: 100%;
+    text-align: center;
+    background-color: steelblue;
+}
+div h1{
+    padding:15px;
+    font-family:"Crete Round";
+font-weight: 100;
+    margin: 0px;
+    color: white;
+    
+}
+#rgbdisplay{
+    font-size: 150%;
+}
+.displayed{
+align-items: center;
+text-align: center;
+background-color:white;
+margin: 0px;
+padding: 0px;
+margin-bottom: 20px;
+}
+button{
+    border: none;
+    background: none;
+    font-weight: 700;
+    color: steelblue;
+text-transform: uppercase;
+transition: all 0.5s;
+}
+
+
+
+button:hover{
+background-color:steelblue !important;
+color:white !important;
+}
+
+.message{
+    width:20%;
+    display: inline-block;
+}
